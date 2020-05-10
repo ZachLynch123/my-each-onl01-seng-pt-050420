@@ -3,7 +3,7 @@ def my_each(collection)
   count = 0
   
   while count < collection.length 
-  yield
+  yield collection
 end
 
 my_each(collection) { puts i }
